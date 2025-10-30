@@ -7,7 +7,6 @@ Simple PHP + Bootstrap 5 site for a salon/barbershop. It uses a small PHP proxy 
 - Bootstrap 5 layout (no build step)
 - Carousel + sections (Services, Gallery, Contact)
 - Pexels API images via server proxy (`photos.php`) — keeps your API key private
-- CLS-safe image loading (transparent placeholders + `width`/`height`)
 - Simple PHP form (`userinfo.php`) that inserts into MySQL
 
 ## Stack
@@ -16,14 +15,3 @@ Simple PHP + Bootstrap 5 site for a salon/barbershop. It uses a small PHP proxy 
 - **DB:** MySQL/MariaDB
 - **Images:** Pexels API (server-side fetch)
 
-## Project structure
-/ (repo root)
-├─ index.php
-├─ service.php
-├─ about.php
-├─ userinfo.php
-├─ photos.php
-├─ img/ # local images 
-├─ css/style.css # optional styles
-├─ .gitignore # ignores config.php (API key)
-└─ README.md
