@@ -1,0 +1,43 @@
+# === Secrets (DO NOT COMMIT) ===
+config.php
+**/config.php
+.env
+*.env
+*.env.*
+*.key
+*.pem
+*.p12
+*.crt
+
+# === Logs ===
+*.log
+error_log
+logs/
+storage/logs/
+
+# === Caches / temp ===
+cache/
+tmp/
+temp/
+*.cache
+
+# === PHP dependencies (if you add Composer later) ===
+vendor/
+composer.lock
+
+# === Node (if you add a build later) ===
+node_modules/
+dist/
+*.map
+
+# === IDE & OS junk ===
+.idea/
+.vscode/
+*.code-workspace
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Misc ===
+npm-debug.log*
+yarn-error.log*
